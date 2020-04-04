@@ -53,8 +53,12 @@ html{
 .itens_navegador{
 	width: 20%;
 	text-align: center;
+	font-weight: bold;
 }
 
+.itens_navegador a:hover{
+	color: #FFA700;
+}
 .navegador_botoes{
 	color: #FFFFFF;
 	margin: 60px 0px;
@@ -103,6 +107,10 @@ html{
 	text-shadow: #058CFF -4px 5px;
 }
 
+.texto_historia b{
+	font-weight: 800;
+	color: #FFA700;
+}
 .middle{
 	display: flex;
 	flex-direction: row;
@@ -283,6 +291,12 @@ html{
     justify-content: center;
     margin-top: 70px;
     text-decoration: none;
+    font-weight: bold;
+}
+
+#footer a:hover{
+	text-decoration: none;
+	color: #FFA700;
 }
 
 .cabecalho_baixo{
@@ -322,6 +336,7 @@ html{
 	z-index: 3;
 	position: relative;
 }
+
 
 .iz2 {
 	z-index: 2;
